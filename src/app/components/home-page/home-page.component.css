@@ -1,12 +1,51 @@
-.logo-image{
-    height: 45px;
+.logo-image {
+  height: 45px;
 }
 
+.home-container {
+  padding: 0px 40px;
+}
 .header-container {
-    margin: 20px;
+  margin: 20px;
 }
 
 .menu {
-    color: var(--color-menu-font);
-    font-size: 14px;
+  color: var(--color-menu-font);
+  font-size: 14px;
+}
+
+.about-wrapper{
+    margin-top: 70px;
+}
+
+.about-wrapper h1 {
+  font-weight: 300;
+  line-height: 60px;
+  font-size: 50px;
+}
+
+.about-wrapper h2 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #4b4b4b;
+}
+
+.about-wrapper .yellow-container {
+  background: var(--color-primary-yellow);
+  height: 683px;
+  width: 1700px;
+  border-radius: 470px;
+  transform: rotate(
+315deg) translateX(55%) translateY(50%);
+  z-index: -1;
+  overflow: hidden;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.about-wrapper .truck-img{
+    transform: rotate(
+45deg) translate(40px,41px);
 }

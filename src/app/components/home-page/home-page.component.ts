@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-page.component.css']
 })
 export class HomePageComponent implements OnInit {
-  menuItems: string[] = ['Home','About Us', 'Careers','Blog','Contact Us']
+  menuItems: string[] = ['Home','About Us', 'Careers','Blog','Press','Contact Us']
   constructor() { }
 
   ngOnInit(): void {

@@ -1,9 +1,37 @@
-<div fxLayout="column">
-    <div fxLayout="row" class="header-container" fxLayoutAlign="space-between center">
-        <img src="/assets/images/logo.png" alt="logo" class="logo-image">
-        <div fxLayout="row" fxLayoutGap="20px" class="menu" fxLayoutAlign="start center">
-            <div *ngFor="let item of menuItems">{{item}}</div>
-            <button class="corner-btn black-btn">Download App</button>
-        </div>
+<div fxLayout="column" class="home-container">
+  <div
+    fxLayout="row"
+    class="header-container"
+    fxLayoutAlign="space-between center"
+  >
+    <img src="/assets/images/logo.png" alt="logo" class="logo-image" />
+    <div
+      fxLayout="row"
+      fxLayoutGap="25px"
+      class="menu"
+      fxLayoutAlign="start center"
+    >
+      <div *ngFor="let item of menuItems">{{ item }}</div>
+      <button class="corner-btn black-btn">Download App</button>
     </div>
+  </div>
+  <div fxLayout="row" fxLayoutAlign="space-between" class="about-wrapper">
+    <div fxFlex="40" fxLayout="column" class="">
+      <h1>Leading 24/7 roadside assistance company</h1>
+      <h2>
+        ReadyAssist provides 24/7 On-Spot Breakdown Support, Flat Tyre Repairs,
+        fixes for starting problems & towing service to customers through our
+        annual subscriptions & on-demand.
+      </h2>
+      <div fxLayout="row" fxLayoutGap="15px">
+        <button class="corner-btn yellow-btn big-btn">
+          Download ReadyAssist
+        </button>
+        <button class="corner-btn black-btn big-btn">Book Service</button>
+      </div>
+    </div>
+    <div class="yellow-container">
+        <img src="/assets/images/truck.png" alt="" class="truck-img">
+    </div>
+  </div>
 </div>

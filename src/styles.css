@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root
+{
+  --color-primary-black: #000;
+  --color-white: #fff;
+  --color-menu-font: #000; 
+}
+
+body {
+    font-family: "Poppins", sans-serif !important;
+    
+}
+
+/* fonts */
+.bold {
+  font-weight: 600;
+}
+
+/* buttons */
+.corner-btn {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 7px 20px;
+}
+
+.black-btn {
+  background: var(--color-primary-black);
+  border-radius: 30px 30px 5px 30px;
+  color: var(--color-white);
+}
+
+.yellow-btn {
+  border-radius: 30px 30px 30px 5px;
+  color: var(--color-primary-black);
+}

@@ -1,0 +1,12 @@
+.logo-image{
+    height: 45px;
+}
+
+.header-container {
+    margin: 20px;
+}
+
+.menu {
+    color: var(--color-menu-font);
+    font-size: 14px;
+}

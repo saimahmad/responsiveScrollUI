@@ -1,0 +1,9 @@
+<div fxLayout="column">
+    <div fxLayout="row" class="header-container" fxLayoutAlign="space-between center">
+        <img src="/assets/images/logo.png" alt="logo" class="logo-image">
+        <div fxLayout="row" fxLayoutGap="20px" class="menu" fxLayoutAlign="start center">
+            <div *ngFor="let item of menuItems">{{item}}</div>
+            <button class="corner-btn black-btn">Download App</button>
+        </div>
+    </div>
+</div>

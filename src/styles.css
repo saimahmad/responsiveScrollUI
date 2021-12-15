@@ -4,6 +4,7 @@
 {
   --color-primary-black: #000;
   --color-primary-yellow: #f9c935;
+  --color-secondary-yellow: #F8EFBC;
   --color-white: #fff;
   --color-menu-font: #000; 
 }
@@ -12,6 +13,7 @@ body {
     font-family: "Poppins", sans-serif !important;
     color: #333;
     overflow-x: hidden;
+    margin: 0px;
     
 }
 

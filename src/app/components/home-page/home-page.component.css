@@ -6,7 +6,15 @@
   padding: 0px 40px;
 }
 .header-container {
-  margin: 20px;
+  position: sticky;
+    top: 0;
+    padding: 20px 100px 20px 100px;
+    margin: 0px -60px 0px -40px;
+    z-index: 99;
+}
+
+.header-container.white-bg {
+  background: var(--color-white);
 }
 
 .menu {
@@ -16,6 +24,8 @@
 
 .about-wrapper{
     margin-top: 70px;
+    margin-bottom: 250px;
+    margin-left: 200px
 }
 
 .about-wrapper h1 {
@@ -48,4 +58,68 @@
 .about-wrapper .truck-img{
     transform: rotate(
 45deg) translate(40px,41px);
+}
+
+.know-wrapper {
+    position: relative;
+}
+.know-wrapper .yellow-container {
+    background: var(--color-secondary-yellow);
+    height: 561px;
+    width: 564px;
+    border-radius: 217px;
+    transform: rotate( 
+241deg) translateX(21%) translateY(-6%);
+    z-index: -1;
+    overflow: hidden;
+    left: -30px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.know-wrapper h1 {
+    color: var(--color-menu-font);
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 700;
+    position: relative
+}
+
+.know-wrapper h1::after {
+    content: "";
+    background: var(--color-primary-yellow);
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+}
+
+.know-wrapper h2 {
+    color: #4B4B4B;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0;
+    width: 90%;
+    margin-top: 40px;
+    padding-right: 40px;
+    margin-bottom: 20px
+}
+
+.know-wrapper .homepics-wrapper{
+    margin-right: 100px;
+}
+
+.homepic1 {
+    height: 200px;
+    width: 300px;
+    border-radius: 100px 100px 5px 100px;
+}
+
+.homepic2 {
+    height: 250px;
+    width: 400px;
+    border-radius: 5px 120px 120px 120px;
+    margin-left: 130px;
 }

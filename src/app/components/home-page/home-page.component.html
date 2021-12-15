@@ -1,19 +1,20 @@
 <div fxLayout="column" class="home-container">
-  <div
-    fxLayout="row"
-    class="header-container"
-    fxLayoutAlign="space-between center"
-  >
-    <img src="/assets/images/logo.png" alt="logo" class="logo-image" />
-    <div
-      fxLayout="row"
-      fxLayoutGap="25px"
-      class="menu"
-      fxLayoutAlign="start center"
-    >
-      <div *ngFor="let item of menuItems">{{ item }}</div>
-      <button class="corner-btn black-btn">Download App</button>
-    </div>
+  <div class="header-container">
+      <div
+        fxLayout="row"
+        fxLayoutAlign="space-between center"
+      >
+        <img src="/assets/images/logo.png" alt="logo" class="logo-image" />
+        <div
+          fxLayout="row"
+          fxLayoutGap="25px"
+          class="menu"
+          fxLayoutAlign="start center"
+        >
+          <div *ngFor="let item of menuItems">{{ item }}</div>
+          <button class="corner-btn black-btn">Download App</button>
+        </div>
+      </div>
   </div>
   <div fxLayout="row" fxLayoutAlign="space-between" class="about-wrapper">
     <div fxFlex="40" fxLayout="column" class="">
@@ -31,7 +32,25 @@
       </div>
     </div>
     <div class="yellow-container">
-        <img src="/assets/images/truck.png" alt="" class="truck-img">
+      <img src="/assets/images/truck.png" alt="" class="truck-img" />
+    </div>
+  </div>
+  <div fxLayout="row" class="know-wrapper">
+    <div class="yellow-container"></div>
+    <div fxLayout="column" fxLayoutGap="30px" class="homepics-wrapper">
+      <img src="/assets/images/homepic1.jpg" alt="" class="homepic1" />
+      <img src="/assets/images/homepic2.jpeg" alt="" class="homepic2" />
+    </div>
+    <div fxFlex="40" fxLayout="column">
+      <h1>Know Us Better</h1>
+      <h2>
+        ReadyAssist intends to be the best roadside assistance provider in India
+        by addressing the real time vehicle breakdown problems of customers
+        using deep machine learning, data intelligence and operations efficiency
+      </h2>
+      <div fxLayout="row" fxLayoutGap="15px">
+        <button class="corner-btn yellow-btn big-btn">Read more here</button>
+      </div>
     </div>
   </div>
 </div>

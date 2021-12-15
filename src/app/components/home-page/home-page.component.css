@@ -7,10 +7,10 @@
 }
 .header-container {
   position: sticky;
-    top: 0;
-    padding: 20px 100px 20px 100px;
-    margin: 0px -60px 0px -40px;
-    z-index: 99;
+  top: 0;
+  padding: 20px 100px 20px 100px;
+  margin: 0px -60px 0px -40px;
+  z-index: 99;
 }
 
 .header-container.white-bg {
@@ -22,10 +22,10 @@
   font-size: 14px;
 }
 
-.about-wrapper{
-    margin-top: 70px;
-    margin-bottom: 250px;
-    margin-left: 200px
+.about-wrapper {
+  margin-top: 70px;
+  margin-bottom: 250px;
+  margin-left: 200px;
 }
 
 .about-wrapper h1 {
@@ -46,8 +46,7 @@
   height: 683px;
   width: 1700px;
   border-radius: 470px;
-  transform: rotate(
-315deg) translateX(55%) translateY(50%);
+  transform: rotate(315deg) translateX(55%) translateY(50%);
   z-index: -1;
   overflow: hidden;
   right: 0;
@@ -55,71 +54,130 @@
   position: absolute;
 }
 
-.about-wrapper .truck-img{
-    transform: rotate(
-45deg) translate(40px,41px);
+.about-wrapper .truck-img {
+  transform: rotate(45deg) translate(40px, 41px);
 }
 
 .know-wrapper {
-    position: relative;
+  position: relative;
 }
 .know-wrapper .yellow-container {
-    background: var(--color-secondary-yellow);
-    height: 561px;
-    width: 564px;
-    border-radius: 217px;
-    transform: rotate( 
-241deg) translateX(21%) translateY(-6%);
-    z-index: -1;
-    overflow: hidden;
-    left: -30px;
-    position: absolute;
-    opacity: 0.5;
+  background: var(--color-secondary-yellow);
+  height: 843px;
+  width: 564px;
+  border-radius: 217px;
+  transform: rotate(241deg) translateX(15%) translateY(8%);
+  z-index: -1;
+  overflow: hidden;
+  left: -30px;
+  position: absolute;
+  opacity: 0.5;
 }
 
 .know-wrapper h1 {
-    color: var(--color-menu-font);
-    font-size: 30px;
-    line-height: 60px;
-    font-weight: 700;
-    position: relative
+  color: var(--color-menu-font);
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 700;
+  position: relative;
 }
 
 .know-wrapper h1::after {
-    content: "";
+  content: "";
+  background: var(--color-primary-yellow);
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+}
+
+.know-wrapper h2 {
+  color: #4b4b4b;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0;
+  width: 90%;
+  margin-top: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.know-wrapper .homepics-wrapper {
+  margin-right: 100px;
+  margin-left: 130px;
+}
+
+.homepic1 {
+  height: 200px;
+  width: 300px;
+  border-radius: 100px 100px 5px 100px;
+}
+
+.homepic2 {
+  height: 250px;
+  width: 400px;
+  border-radius: 5px 120px 120px 120px;
+  margin-left: 130px;
+}
+
+.partner-wrapper {
+  margin-top: 250px;
+  margin-bottom: 200px;
+}
+
+.partner-wrapper .yellow-container {
+  position: absolute;
+  background: var(--color-secondary-yellow);
+  opacity: 0.5;
+  width: 900px;
+  height: 400px;
+  border-radius: 230px;
+  transform: rotate(-10deg);
+  z-index: -1;
+}
+
+.partner-wrapper h1 {
+  color: var(--color-menu-font);
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 700;
+  position: relative;
+  display: block;
+  margin-top: 30px;
+}
+
+.partner-wrapper h1::after {
+  content: "";
     background: var(--color-primary-yellow);
     width: 50px;
     height: 3px;
     position: absolute;
     left: 0;
+    right: 0;
+    margin: 0 auto;
     bottom: -3px;
 }
 
-.know-wrapper h2 {
-    color: #4B4B4B;
+.partner-wrapper h2 {
+  color: #4B4B4B;
     font-size: 20px;
     font-weight: 300;
     line-height: 30px;
-    margin: 0;
-    width: 90%;
-    margin-top: 40px;
-    padding-right: 40px;
-    margin-bottom: 20px
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
-.know-wrapper .homepics-wrapper{
-    margin-right: 100px;
+.client-img {
+  height: 100px;
+  width: 100px;
 }
 
-.homepic1 {
-    height: 200px;
-    width: 300px;
-    border-radius: 100px 100px 5px 100px;
-}
-
-.homepic2 {
-    height: 250px;
-    width: 400px;
-    border-radius: 5px 120px 120px 120px;
-    margin-left: 130px;
+.client-container {
+  margin-top: 40px
 }

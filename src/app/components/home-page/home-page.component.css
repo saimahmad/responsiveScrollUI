@@ -123,7 +123,7 @@
 }
 
 .partner-wrapper {
-  margin-top: 250px;
+ 
   margin-bottom: 200px;
 }
 
@@ -180,4 +180,87 @@
 
 .client-container {
   margin-top: 40px
+}
+
+.customer-partner-tab-wrapper h1 {
+  font-size: 30px;
+  line-height: 60px;
+  font-weight: 700;
+  position: relative;
+  display: block;
+}
+
+.customer-partner-tab-wrapper {
+  margin-bottom: 200px;
+  margin-top: 250px;
+}
+
+.customer-partner-tab-wrapper .tab-wrapper {
+  margin-bottom: 20px
+}
+
+.customer-partner-tab-wrapper h1::after{
+  content: "";
+    background: var(--color-primary-yellow);
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -3px;
+}
+
+.customer-partner-tab-wrapper ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.customer-partner-tab-wrapper li {
+  height: 50px;
+  width: 200px;
+  border-radius: 25px 0 0 5px;
+  background-color: transparent;
+  color: var(--color-menu-font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.customer-partner-tab-wrapper li:nth-child(2) {
+  border-radius: 0 5px 25px 0;
+}
+
+.customer-partner-tab-wrapper li.active {
+  background-color: #f9c935;
+  color: #000000;
+  border: 2px solid #f9c935;
+}
+
+.customer-partner-tab-wrapper .customer-options-img {
+  height: 200px;
+}
+
+.customer-partner-tab-wrapper .partner-banner-img {
+  height: 160px;
+    width: 300px;
+    margin-right: 40px;
+    border-radius: 100px 100px 5px 100px;
+}
+
+.customer-partner-tab-wrapper p {
+  margin-bottom: 40px
+}
+
+.customer-partner-tab-wrapper .service-partner-container {
+  max-width: 400px;
 }

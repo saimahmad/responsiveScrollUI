@@ -8,6 +8,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
   menuItems: string[] = ['Home','About Us', 'Careers','Blog','Press','Contact Us']
+  selectedTab = 0;
   constructor() { }
 
   ngOnInit(): void {

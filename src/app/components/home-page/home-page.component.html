@@ -50,16 +50,50 @@
       </div>
     </div>
   </div>
+  <div
+    fxLayout="column"
+    class="customer-partner-tab-wrapper"
+    fxLayoutAlign="start center"
+  >
+    <h1>What's in it for you</h1>
+    <div class="tab-wrapper">
+      <ul>
+        <li (click)="selectedTab = 0" [ngClass]="{ active: selectedTab == 0 }">
+          Customers
+        </li>
+        <li (click)="selectedTab = 1" [ngClass]="{ active: selectedTab == 1 }">
+          Partners
+        </li>
+      </ul>
+    </div>
+    <img
+      *ngIf="selectedTab == 0"
+      src="/assets/images/customer_options.png"
+      class="customer-options-img"
+    />
+    <div *ngIf="selectedTab == 1" fxLayout="row" fxLayoutAlign="start end">
+      <img src="/assets/images/partner_banner.jpg" class="partner-banner-img" />
+      <div fxLayout="column" fxLayoutAlign="start start" class="service-partner-container">
+        <h2>Be Our Service Partners</h2>
+        <p>
+          Become our RSA partner & get assured business & take your business next
+          level with us. Choose your path to partnership & get all the support you
+          need to succeed.
+        </p>
+        <button class="corner-btn black-btn">Earn With Us</button>
+      </div>
+    </div>
+  </div>
   <div fxLayout="column" class="partner-wrapper" fxLayoutAlign="start center">
-      <div class="yellow-container"></div>
-      <h1>Our Impact</h1>
-      <h2>To the below list of our valuable clients & more</h2>
+    <div class="yellow-container"></div>
+    <h1>Our Impact</h1>
+    <h2>To the below list of our valuable clients & more</h2>
     <div fxLayout="row" fxLayoutGap="25px" class="client-container">
-      <img src="/assets/images/client1.svg" class="client-img" alt="">
-      <img src="/assets/images/client2.svg" class="client-img" alt="">
-      <img src="/assets/images/client3.svg" class="client-img" alt="">
-      <img src="/assets/images/client4.svg" class="client-img" alt="">
-      <img src="/assets/images/client5.svg" class="client-img" alt="">
+      <img src="/assets/images/client1.svg" class="client-img" alt="" />
+      <img src="/assets/images/client2.svg" class="client-img" alt="" />
+      <img src="/assets/images/client3.svg" class="client-img" alt="" />
+      <img src="/assets/images/client4.svg" class="client-img" alt="" />
+      <img src="/assets/images/client5.svg" class="client-img" alt="" />
     </div>
   </div>
 </div>

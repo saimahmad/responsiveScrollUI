@@ -11,6 +11,33 @@ export class HomePageComponent implements OnInit {
   selectedTab = 0;
   constructor() { }
 
+  reviews = [
+    {
+      name: "rajesh bala",
+      comment: "Very reliable service,  friendly staff...."
+    },
+    {
+      name: "arun pathrose",
+      comment: "Syed Tanvir did a great job! Very well done, thank you"
+    },
+    {
+      name: "gaurav sahni",
+      comment: "Very helpful customer support! They addressed my issue promptly and sent the technician immediately."
+    },
+    {
+      name: "Sujeet Kumar B",
+      comment: "Syed Afroz done my tyre change"
+    },
+    {
+      name: "TYRE CARE SHOP",
+      comment: "Very convenient & fast service, they will reach out to any part of the city within 30 mins. "
+    },
+    {
+      name: "Sai ram",
+      comment: "Very reliable service,  friendly staff...."
+    },
+  ]
+
   ngOnInit(): void {
   }
 

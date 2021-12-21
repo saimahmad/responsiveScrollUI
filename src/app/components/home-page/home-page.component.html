@@ -96,4 +96,44 @@
       <img src="/assets/images/client5.svg" class="client-img" alt="" />
     </div>
   </div>
+  <div fxLayout="column" fxLayoutAlign="start center" class="customer-rating-wrapper">
+    <div class="grey-background"></div>
+    <h1>Straight from the Customer's heart</h1>
+    <div fxLayout="row wrap" class="reviews-wrapper">
+      <div *ngFor="let review of reviews" class="rating" fxFlex="33" fxLayout="column" fxLayoutGap="10px" fxLayoutAlign="start center">
+        <span class="bold">{{review.name}}</span>
+        <div fxLayout="row" fxLayoutGap="5px"><img *ngFor="let i of [1,2,3,4,5]" src="/assets/images/star.png" alt="" class="rating-star"></div>
+        <div class="small-text">{{review.comment}}</div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row" class="footer-wrapper">
+    <div fxFlex fxLayout="column" fxlAY fxLayoutGap="20px">
+      <div class="bold">Get App On:</div>
+      <img src="/assets/images/play_store.svg" alt="" class="play-store-img">
+    </div>
+    <div fxFlex fxLayout="column" fxLayoutGap="20px">
+      <div class="bold">Quick Links</div>
+      <div class="small-text">My Subscription</div>
+      <div class="small-text">Activate Subscription</div>
+      <div class="small-text">About Us</div>
+      <div class="small-text">Contact Us</div>
+      <div class="small-text">Join</div>
+      <div class="small-text">Privacy Policy</div>
+      <div class="small-text">Terms & Conditions</div>
+    </div>
+    <div fxFlex fxLayout="column" fxLayoutGap="20px">
+      <div class="bold">Our Services</div>
+      <div class="small-text">Puncture Repair</div>
+      <div class="small-text">Battery Jump Start</div>
+      <div class="small-text">On-Spot Minor Repair</div>
+      <div class="small-text">Towing Service</div>
+      <div class="small-text">Emergency Fuel</div>
+      <div class="small-text">Key-lock Assistance</div>
+    </div>
+    <div fxFlex fxLayout="column" fxLayoutGap="20px">
+      <div class="bold">Follow Us</div>
+      <img src="/assets/images/follow_us.png" alt="" class="follow-us-img">
+    </div>
+  </div>
 </div>

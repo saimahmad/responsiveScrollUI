@@ -22,6 +22,15 @@ body {
   font-weight: 600;
 }
 
+.small-text {
+  font-size: 14px
+}
+
+/* margins */
+.mb-30 {
+  margin-bottom: 30px
+}
+
 /* buttons */
 .corner-btn {
   font-weight: 600;
